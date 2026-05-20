@@ -1,15 +1,33 @@
 # Python-Port-Scanner
-# Python Port Scanner
+# Python Port Scanner Toolkit
 
-A simple Python cybersecurity tool for scanning TCP ports and grabbing service banners.
+A collection of Python cybersecurity tools for TCP port scanning and banner grabbing.
 
-## Features
+## Included Tools
 
-- TCP Port Scanning
-- Banner Grabbing
-- Service Detection
-- Fast Socket Connections
+### 1. Basic Scanner
+- Simple TCP scanner
+- Scans ports 1-1024
+
+### 2. Threaded Scanner
+- Fast multithreaded scanner
+- Saves results to file
+
+### 3. Banner Scanner
+- Detects open ports
+- Performs banner grabbing
+- Service identification
 
 ## Usage
 
-python scanner.py
+### Basic Scanner
+
+python basic_scanner.py
+
+### Threaded Scanner
+
+python threaded_scanner.py -t scanme.nmap.org
+
+### Banner Scanner
+
+python banner_scanner.py
